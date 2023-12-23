@@ -112,6 +112,12 @@
     margin-left: 8px;
 }
 
+.navbar .navbar-image {
+    width: 100%;
+    height: 100%;
+    margin-right: 5%;
+}
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
