@@ -588,27 +588,19 @@
                 sustainable energy.<br />
                 Let's connect and illuminate a greener future together
               </p>
-              <form>
+              <form action='#' method="post">
                 <div class="row g-3">
                   <div class="col-12 col-sm-6">
-                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px" />
+                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px" name="enquires_name"/>
                   </div>
                   <div class="col-12 col-sm-6">
-                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px" />
+                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px" name="enquires_email"/>
                   </div>
                   <div class="col-12 col-sm-6">
-                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px" />
-                  </div>
-                  <div class="col-12 col-sm-6">
-                    <select class="form-select border-0" style="height: 55px">
-                      <option selected>Select A Service</option>
-                      <option value="1">Service 1</option>
-                      <option value="2">Service 2</option>
-                      <option value="3">Service 3</option>
-                    </select>
+                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px" name="enquires_mobile"/>
                   </div>
                   <div class="col-12">
-                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                    <textarea class="form-control border-0" placeholder="Enter your query" name="enquires_query"></textarea>
                   </div>
                   <div class="col-12">
                     <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">
