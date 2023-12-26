@@ -588,7 +588,7 @@
                 sustainable energy.<br />
                 Let's connect and illuminate a greener future together
               </p>
-              <form action='#' method="post">
+              <form id="contactForm">
                 <div class="row g-3">
                   <div class="col-12 col-sm-6">
                     <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px" name="enquires_name"/>
@@ -602,13 +602,20 @@
                   <div class="col-12">
                     <textarea class="form-control border-0" placeholder="Enter your query" name="enquires_query"></textarea>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 col-sm-6">
                     <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">
                       Submit
                     </button>
+                    </div>
+                <div class="col-12 col-sm-6">
+                    <div id="submitStatus" style="display: none;">
+                      <span class="fa fa-check" style="margin-right: 10px; margin-top: 20px; color: green;"></span>Form submitted successfully!
+                   </div>
+
                   </div>
                 </div>
-              </form>
+              </div>
+            </form>
             </div>
           </div>
         </div>
@@ -828,6 +835,7 @@
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
 </body>
 
 </html>
