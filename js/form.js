@@ -9,7 +9,7 @@ $(document).ready(function() {
       // Make AJAX call to submit the form data
       $.ajax({
         type: 'POST', // Or 'GET', depending on your server setup
-        url: 'http://localhost:5000/send_email', // Replace with your server endpoint
+        url: 'https://email-service-aj.vercel.app/send_email', // Replace with your server endpoint
         data: formData,
         success: function(response) {
           // On success, show the success message and mark
